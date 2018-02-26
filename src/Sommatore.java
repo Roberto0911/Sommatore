@@ -21,10 +21,20 @@ public class Sommatore
 	{
 		return x+1000;
 	}
-	
+	public static int somma3000 (int x)
+	{
+		return x+3000;
+	}
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
+		int x=1;
+		System.out.println(somma4(x));
+		System.out.println(somma10(x));
+		System.out.println(somma20(x));
+		System.out.println(somma100(x));
+		System.out.println(somma1000(x));
+		System.out.println(somma3000(x));
 
 	}
 
